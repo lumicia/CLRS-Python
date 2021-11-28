@@ -1,4 +1,4 @@
-from src.chap2.merge_sort import merge_sort
+from src.chap2.exercises.exercise2_3_2_merge_sort import merge_sort
 
 
 def test_merge_sort_empty():
@@ -23,4 +23,3 @@ def test_merge_sort_reversed():
     a4 = [6, 5, 4, 3, 2, 1]
     merge_sort(a4, 0, 5)
     assert a4 == [1, 2, 3, 4, 5, 6]
-

@@ -1,5 +1,3 @@
-# 练习 2.1-3
-
 from typing import Optional
 
 

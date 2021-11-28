@@ -1,5 +1,7 @@
-from src.chap2.binary_search import binary_search
-from src.chap2.binary_search import binary_search_recursive
+from src.chap2.exercises.exercise2_3_5_binary_search import (
+    binary_search,
+    binary_search_recursively,
+)
 
 
 def test_binary_search_empty():
@@ -25,17 +27,17 @@ def test_binary_search_case_two():
 
 def test_binary_search_recursive_empty():
     a1 = []
-    assert binary_search_recursive(a1, 0, 0, 0) == None
+    assert binary_search_recursively(a1, 0, 0, 0) == None
 
 
 def test_binary_search_recursive_one_element():
     a2 = [1]
-    assert binary_search_recursive(a2, 1, 0, 0) == 0
+    assert binary_search_recursively(a2, 1, 0, 0) == 0
 
 
 def test_binary_search_recursive_case_one():
     a3 = [3, 5, 7, 8, 9, 12]
-    assert binary_search_recursive(a3, 8, 0, 5) == 3
+    assert binary_search_recursively(a3, 8, 0, 5) == 3
 
 
 def test_binary_search_recursive_case_two():

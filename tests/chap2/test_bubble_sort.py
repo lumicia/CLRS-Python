@@ -1,4 +1,4 @@
-from src.chap2.bubble_sort import bubble_sort
+from src.chap2.exercises.problem2_2_bubble_sort import bubble_sort
 
 
 def test_bubble_sort_empty():

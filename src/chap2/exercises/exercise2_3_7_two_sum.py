@@ -1,10 +1,6 @@
-# 练习 2.3-7
-
-from typing import Optional
-
-
-def two_sum(a: list[int], x: int) -> list[Optional[int]]:
+def two_sum(a: list[int], x: int) -> list[int | None]:
     m = {}
+
     for j, k in enumerate(a):
         rem = x - a[j]
         if m.get(rem) is not None:

@@ -1,4 +1,6 @@
-from src.chap2.insertion_sort_non_decreasing import insertion_sort_non_decreasing
+from src.chap2.exercises.exercise2_1_2_insertion_sort_non_decreasing import (
+    insertion_sort_non_decreasing,
+)
 
 
 def test_insertion_sort_non_decreasing_empty():

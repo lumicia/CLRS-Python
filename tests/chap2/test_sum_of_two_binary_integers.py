@@ -1,4 +1,6 @@
-from src.chap2.sum_of_two_binary_integers import sum_of_two_binary_intergers
+from src.chap2.exercises.exercise2_1_4_sum_of_two_binary_integers import (
+    sum_of_two_binary_intergers,
+)
 
 
 def test_sum_one_bit():

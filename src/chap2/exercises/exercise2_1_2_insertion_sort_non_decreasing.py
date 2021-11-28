@@ -1,5 +1,3 @@
-# 练习 2.1-2
-
 def insertion_sort_non_decreasing(a: list[int]) -> None:
     for j in range(1, len(a)):
         key = a[j]

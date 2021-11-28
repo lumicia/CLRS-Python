@@ -1,6 +1,3 @@
-# 思考题 2-4
-
-
 def cross_inversion_count(a: list[int], p: int, q: int, r: int) -> int:
     left = a[p : q + 1]
     right = a[q + 1 : r + 1]
@@ -29,6 +26,7 @@ def inversion_count(a: list[int], p: int, r: int) -> int:
     inversions = 0
     if a == [] or len(a) == 1:
         return 0
+
     if p < r:
         q = (p + r) // 2
         inversions += inversion_count(a, p, q)

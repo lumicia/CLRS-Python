@@ -1,4 +1,4 @@
-from src.chap2.selection_sort import selection_sort
+from src.chap2.exercises.exercise2_2_2_selection_sort import selection_sort
 
 
 def test_selection_sort_empty():

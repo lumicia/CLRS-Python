@@ -1,4 +1,4 @@
-from src.chap2.inversion import inversion_count
+from src.chap2.exercises.problem2_4_inversion import inversion_count
 
 
 def test_inversions_empty():

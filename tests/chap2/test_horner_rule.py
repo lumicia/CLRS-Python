@@ -1,5 +1,7 @@
-from src.chap2.horner_rule import naive_polynomial_evaluation
-from src.chap2.horner_rule import horner_rule
+from src.chap2.exercises.problem2_3_horner_rule import (
+    horner_rule,
+    naive_polynomial_evaluation,
+)
 
 
 def test_naive_polynomial_evaluation_empty():

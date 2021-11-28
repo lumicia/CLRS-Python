@@ -1,4 +1,4 @@
-from src.chap2.two_sum import two_sum
+from src.chap2.exercises.exercise2_3_7_two_sum import two_sum
 
 
 def test_two_sum_case_one():
